@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BDC3831EF6FE7400F93183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDC3821EF6FE7400F93183 /* AppDelegate.swift */; };
+		A1BDC3851EF6FE7400F93183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDC3841EF6FE7400F93183 /* ViewController.swift */; };
+		A1BDC3881EF6FE7400F93183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BDC3861EF6FE7400F93183 /* Main.storyboard */; };
+		A1BDC38A1EF6FE7400F93183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BDC3891EF6FE7400F93183 /* Assets.xcassets */; };
+		A1BDC38D1EF6FE7400F93183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BDC38B1EF6FE7400F93183 /* LaunchScreen.storyboard */; };
+		A1BDC3981EF6FE7400F93183 /* MindwaveHueAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDC3971EF6FE7400F93183 /* MindwaveHueAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BDC3941EF6FE7400F93183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BDC3771EF6FE7400F93183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BDC37E1EF6FE7400F93183;
+			remoteInfo = MindwaveHueApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1BDC37F1EF6FE7400F93183 /* MindwaveHueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindwaveHueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BDC3821EF6FE7400F93183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1BDC3841EF6FE7400F93183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1BDC3871EF6FE7400F93183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1BDC3891EF6FE7400F93183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1BDC38C1EF6FE7400F93183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1BDC38E1EF6FE7400F93183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BDC3931EF6FE7400F93183 /* MindwaveHueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindwaveHueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BDC3971EF6FE7400F93183 /* MindwaveHueAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindwaveHueAppTests.swift; sourceTree = "<group>"; };
+		A1BDC3991EF6FE7400F93183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BDC37C1EF6FE7400F93183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BDC3901EF6FE7400F93183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BDC3761EF6FE7400F93183 = {
+			isa = PBXGroup;
+			children = (
+				A1BDC3811EF6FE7400F93183 /* MindwaveHueApp */,
+				A1BDC3961EF6FE7400F93183 /* MindwaveHueAppTests */,
+				A1BDC3801EF6FE7400F93183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BDC3801EF6FE7400F93183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDC37F1EF6FE7400F93183 /* MindwaveHueApp.app */,
+				A1BDC3931EF6FE7400F93183 /* MindwaveHueAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BDC3811EF6FE7400F93183 /* MindwaveHueApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDC3821EF6FE7400F93183 /* AppDelegate.swift */,
+				A1BDC3841EF6FE7400F93183 /* ViewController.swift */,
+				A1BDC3861EF6FE7400F93183 /* Main.storyboard */,
+				A1BDC3891EF6FE7400F93183 /* Assets.xcassets */,
+				A1BDC38B1EF6FE7400F93183 /* LaunchScreen.storyboard */,
+				A1BDC38E1EF6FE7400F93183 /* Info.plist */,
+			);
+			path = MindwaveHueApp;
+			sourceTree = "<group>";
+		};
+		A1BDC3961EF6FE7400F93183 /* MindwaveHueAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BDC3971EF6FE7400F93183 /* MindwaveHueAppTests.swift */,
+				A1BDC3991EF6FE7400F93183 /* Info.plist */,
+			);
+			path = MindwaveHueAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BDC37E1EF6FE7400F93183 /* MindwaveHueApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BDC39C1EF6FE7400F93183 /* Build configuration list for PBXNativeTarget "MindwaveHueApp" */;
+			buildPhases = (
+				A1BDC37B1EF6FE7400F93183 /* Sources */,
+				A1BDC37C1EF6FE7400F93183 /* Frameworks */,
+				A1BDC37D1EF6FE7400F93183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindwaveHueApp;
+			productName = MindwaveHueApp;
+			productReference = A1BDC37F1EF6FE7400F93183 /* MindwaveHueApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1BDC3921EF6FE7400F93183 /* MindwaveHueAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BDC39F1EF6FE7400F93183 /* Build configuration list for PBXNativeTarget "MindwaveHueAppTests" */;
+			buildPhases = (
+				A1BDC38F1EF6FE7400F93183 /* Sources */,
+				A1BDC3901EF6FE7400F93183 /* Frameworks */,
+				A1BDC3911EF6FE7400F93183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BDC3951EF6FE7400F93183 /* PBXTargetDependency */,
+			);
+			name = MindwaveHueAppTests;
+			productName = MindwaveHueAppTests;
+			productReference = A1BDC3931EF6FE7400F93183 /* MindwaveHueAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BDC3771EF6FE7400F93183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Melissa;
+				TargetAttributes = {
+					A1BDC37E1EF6FE7400F93183 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C5Y8HG3J2F;
+						ProvisioningStyle = Automatic;
+					};
+					A1BDC3921EF6FE7400F93183 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C5Y8HG3J2F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1BDC37E1EF6FE7400F93183;
+					};
+				};
+			};
+			buildConfigurationList = A1BDC37A1EF6FE7400F93183 /* Build configuration list for PBXProject "MindwaveHueApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1BDC3761EF6FE7400F93183;
+			productRefGroup = A1BDC3801EF6FE7400F93183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BDC37E1EF6FE7400F93183 /* MindwaveHueApp */,
+				A1BDC3921EF6FE7400F93183 /* MindwaveHueAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BDC37D1EF6FE7400F93183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BDC38D1EF6FE7400F93183 /* LaunchScreen.storyboard in Resources */,
+				A1BDC38A1EF6FE7400F93183 /* Assets.xcassets in Resources */,
+				A1BDC3881EF6FE7400F93183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BDC3911EF6FE7400F93183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BDC37B1EF6FE7400F93183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BDC3851EF6FE7400F93183 /* ViewController.swift in Sources */,
+				A1BDC3831EF6FE7400F93183 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BDC38F1EF6FE7400F93183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BDC3981EF6FE7400F93183 /* MindwaveHueAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BDC3951EF6FE7400F93183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BDC37E1EF6FE7400F93183 /* MindwaveHueApp */;
+			targetProxy = A1BDC3941EF6FE7400F93183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1BDC3861EF6FE7400F93183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BDC3871EF6FE7400F93183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1BDC38B1EF6FE7400F93183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BDC38C1EF6FE7400F93183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BDC39A1EF6FE7400F93183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BDC39B1EF6FE7400F93183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BDC39D1EF6FE7400F93183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5Y8HG3J2F;
+				INFOPLIST_FILE = MindwaveHueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.MindwaveHueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1BDC39E1EF6FE7400F93183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C5Y8HG3J2F;
+				INFOPLIST_FILE = MindwaveHueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.MindwaveHueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A1BDC3A01EF6FE7400F93183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C5Y8HG3J2F;
+				INFOPLIST_FILE = MindwaveHueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.MindwaveHueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindwaveHueApp.app/MindwaveHueApp";
+			};
+			name = Debug;
+		};
+		A1BDC3A11EF6FE7400F93183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C5Y8HG3J2F;
+				INFOPLIST_FILE = MindwaveHueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.MindwaveHueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindwaveHueApp.app/MindwaveHueApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BDC37A1EF6FE7400F93183 /* Build configuration list for PBXProject "MindwaveHueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BDC39A1EF6FE7400F93183 /* Debug */,
+				A1BDC39B1EF6FE7400F93183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BDC39C1EF6FE7400F93183 /* Build configuration list for PBXNativeTarget "MindwaveHueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BDC39D1EF6FE7400F93183 /* Debug */,
+				A1BDC39E1EF6FE7400F93183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1BDC39F1EF6FE7400F93183 /* Build configuration list for PBXNativeTarget "MindwaveHueAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BDC3A01EF6FE7400F93183 /* Debug */,
+				A1BDC3A11EF6FE7400F93183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BDC3771EF6FE7400F93183 /* Project object */;
+}
